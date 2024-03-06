@@ -1,18 +1,133 @@
-/* Base styles */
-/* Define your base styles here */
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
 
-/* Media queries for responsive layout */
-@media only screen and (max-width: 768px) {
-    /* Styles for screens up to 768px wide */
-    /* Adjust layout for smaller screens */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-    /* Styles for screens between 768px and 1024px wide */
-    /* Adjust layout for medium-sized screens */
+.headbox {
+    width: 167px;
+    height: 29px;
 }
 
-@media only screen and (min-width: 1024px) {
-    /* Styles for screens wider than 1024px */
-    /* Adjust layout for larger screens */
+.menu {
+    display: flex;
+    border: 1px solid #000;
+    align-items: center;
+    gap: 52px;
+}
+
+.banner {
+    background: #071629 url('image/background.png') no-repeat center/cover;
+    color: #fff;
+    text-align: center;
+}
+
+#GetSchooled {
+    font-size: 125px;
+}
+
+#BP {
+    font-size: 16px;
+    word-spacing: 57px;
+}
+
+#button1 {
+    width: 162px;
+    height: 40px;
+    border-radius: 22px;
+}
+
+.people {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 139px;
+}
+
+.people img {
+    border-radius: 50%;
+}
+
+.people h3, .people p {
+    text-align: center;
+}
+
+.quote {
+    background: #C271FF;
+    color: #fff;
+}
+
+.quote img {
+    border-radius: 80px;
+}
+
+.quote blockquote {
+    font-size: 22px;
+}
+
+.quotebox .p1, .quotebox .p2 {
+    font-weight: 700;
+}
+
+.video {
+    text-align: center;
+}
+
+.video-title .highlight2 {
+    color: #C271FF;
+}
+
+.photo {
+    border-radius: 5px;
+}
+
+.photophill h3 {
+    color: #c170ff;
+}
+
+.box {
+    width: 64px;
+    height: 64px;
+}
+
+.membership {
+    background: #071629;
+    color: #fff;
+    text-align: center;
+}
+
+.highlight3 {
+    color: #C271FF;
+}
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#button2 {
+    width: 162px;
+    height: 40px;
+    border-radius: 22px;
+}
+
+.faq h1 {
+    font-size: 60px;
+}
+
+.faq .row-block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer {
+    background-color: #071629;
+    color: #fff;
+    text-align: center;
+}
+
+#smileschool {
+    font-size: 12px;
+    opacity: 0.2;
 }

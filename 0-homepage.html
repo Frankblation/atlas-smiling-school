@@ -1,27 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Get Schooled</title>
 </head>
 <body>
-    <header>
-        <h1>Head PHones</h1>
+    <header class="container">
+        <div class="headbox">
+            <a href="#"><img src="image/face.png" alt="Logo"></a>
+        </div>
+        <div class="menu">
+            <div class="courses"><a href="#">COURSES</a></div>
+            <div class="pricing"><a href="#">PRICING</a></div>
+            <div class="login"><a href="#">LOGIN</a></div>
+        </div>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-    <section>
-        <h2>Main Content</h2>
-        <p>This is the main content area. You can put your text, images, and other content here.</p>
-    </section>
-    <footer>
-        <p>Footer</p>
+    <main class="container">
+        <section class="banner">
+            <div>
+                <h1 id="GetSchooled">Get schooled</h1>
+                <p id="BP">SMILES GRIN LAUGH</p>
+                <button id="button1" class="btn btn-primary">REGISTER FOR FREE</button>
+            </div>
+            <div>
+                <h2>Learn<span class="highlight"> from the pros</span></h2>
+            </div>
+            <div class="row people">
+                <div class="col-md-3">
+                    <img src="image/phill.png" alt="Phill">
+                    <h3>Phillip Massey</h3>
+                    <p>« Smile of the year » 2018 - 2019</p>
+                </div>
+                <!-- Repeat similar structure for other people -->
+            </div>
+        </section>
+        <!-- Repeat similar structure for other sections -->
+    </main>
+    <!-- FOOTER -->
+    <footer class="container">
+        <div class="footer">
+            <div id="image">
+                <a href="#"><img id="logo" src="image/logo.png" alt="Logo"></a>
+                <div class="icons">
+                    <a href="http://facebook.com/frankblation"><img src="image/Facebook_White.png"></a>
+                    <a href="https://twitter.com/blationfrank"><img src="image/Twitter_White.png"></a>
+                    <a href="https://www.instagram.com/frankblation"><img src="image/Instagram_White.png"></a>
+                </div>
+            </div>
+            <p id="smileschool">©smileschool 2020</p>
+        </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
