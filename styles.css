@@ -1,25 +1,49 @@
 
-.header {
-    z-index: 1;
-    width: 1045px;
-    top: 35px;
-    left: 200.08px;
-    right: 100.08px;
-  }
-
- .navbar-brand img {
-    width: 40%;
-    height: 40%;
-    padding-left: 200px;
-    padding-top: 25px;
+:root {
+  --hover-color: #C271FF;
 }
+
+.overhead {
+  position:absolute;
+  width: 100%;
+  z-index: 1;
+  }
+
+  .underhead {
+    width:100%;
+  }
+
   .banner {
-    background: url('images/pic_1.jpg') no-repeat center/cover;
-    height:1093px;
+    height: 100vh;
+    background-image: url('images/pic_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+  #button {
+    align-items: center;
+    padding: 13px 21px 13px 20px;
+    border-radius: 22px;
+    background: #C271FF;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px 0px rgba(7, 22, 41, 0.18);
   }
 
 
-/*
+  .sl,
+  .logo {
+    height: 30px;
+
+  }
+  .menu:hover {
+    color: var(--hover-color);
+
+    border-color: var(--hover-color);
+
+}
+
   .quote {
 
   }
@@ -34,9 +58,10 @@
 
   .footer {
 
-  } */
+  }
   /* Adjust font sizes for better readability on smaller screens */
   /* You can fine-tune these values as needed */
+
   .header .menu a {
     font-size: 10px;
   }
@@ -67,7 +92,6 @@
 
   /* Add media queries for tablet and phone sizes */
   @media only screen and (max-width: 1024px) {
-    /* Adjust styles for tablets
     .header {}
 
 
@@ -92,8 +116,7 @@
   @media only screen and (max-width: 768px) {
     /* Adjust styles for phones */
     .header {
-    padding-left:5%;
-    padding-right:5%;
+
     }
 
     .banner {
