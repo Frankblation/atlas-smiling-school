@@ -1,4 +1,3 @@
-
 :root {
   --hover-color: #C271FF;
 }
@@ -7,143 +6,172 @@
   position:absolute;
   width: 100%;
   z-index: 1;
-  }
+}
 
-  .underhead {
-    width:100%;
-  }
+.underhead {
+  width:100%;
+}
 
-  .banner {
+.banner {
+  background-image: url('images/pic_1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
 
-    background-image: url('images/pic_1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-  }
+#button1 {
+  align-items: center;
+  padding: 13px 21px 13px 20px;
+  border-radius: 22px;
+  background: var(--hover-color);
+  cursor: progress;
+  box-shadow: 0px 2px 4px 0px rgba(7, 22, 41, 0.18);
+}
 
-  #button1 {
-    align-items: center;
-    padding: 13px 21px 13px 20px;
-    border-radius: 22px;
-    background: var(--hover-color);
-    cursor:progress;
-    box-shadow: 0px 2px 4px 0px rgba(7, 22, 41, 0.18);
-  }
+.GetSchooled {
+  padding-top: 10%;
+}
 
-  #GetSchooled {
-    padding-top:10%;
-
-  }
 .people {
   margin-top: 10%;
 }
-  .sl,
-  .logo {
-    height: 30px;
 
-  }
-  .menu:hover {
-    color: var(--hover-color)!important;
-
-    border-color: var(--hover-color);
+.sl,
+.logo {
+  height: 30px;
 }
+
+.menu:hover {
+  color: var(--hover-color) !important;
+  border-color: var(--hover-color);
+}
+
 h2 {
   color: var(--hover-color);
 }
 
-  .quote {
+.quote {
+  background: #C271FF;
+  fill: #C271FF;
+  width: 1440px;
+  height: 392px;
+  flex-shrink: 0;}
 
+  .quote img {
+    border-radius: 80px;
   }
 
-  .video {
+  /* Style for carousel items */
+.carousel-item img {
+  width: 100%;
+  /* Add more styles as needed */
+}
 
+.carousel-item .quotebox {
+  /* Add styles for the quote box */
+}
+
+.carousel-item blockquote {
+  /* Add styles for the quote */
+}
+
+.carousel-item .p1,
+.carousel-item .p2 {
+  /* Add styles for the person's name and role */
+}
+
+/* Style for carousel controls (arrow buttons) */
+.carousel-control-prev,
+.carousel-control-next {
+  width: auto;
+  height: auto;
+  padding: 0;
+}
+
+.carousel-control-prev img,
+.carousel-control-next img {
+  width: 30px; /* Adjust as needed */
+  height: 30px; /* Adjust as needed */
+}
+
+/* Customize the appearance of the carousel indicators (optional) */
+.carousel-indicators li {
+  background-color: #888; /* Change the color */
+  border-color: #888; /* Change the color */
+}
+
+.carousel-indicators .active {
+  background-color: #333; /* Change the color */
+  border-color: #333; /* Change the color */
+}
+
+
+.video {}
+
+.membership {}
+
+.footer {}
+
+/* Adjust font sizes for better readability on smaller screens */
+/* You can fine-tune these values as needed */
+
+.header .menu a {
+  font-size: 10px;
+}
+
+#GetSchooled {
+  font-size: 36px;
+}
+
+#BP {
+  font-size: 14px;
+}
+
+.people h3 {
+  font-size: 16px;
+}
+
+.people p {
+  font-size: 14px;
+}
+
+.banner h2 {
+  font-size: 24px;
+}
+
+.quotebox blockquote {
+  font-size: 18px;
+}
+
+/* Add media queries for tablet and phone sizes */
+@media only screen and (max-width: 1024px) {
+  .header {}
+
+  .banner {
+      background: url('images/pic_1.jpg') no-repeat center/cover;
   }
 
-  .membership {
+  .video {}
 
+  .membership {}
+
+  .footer {}
+}
+
+@media only screen and (max-width: 768px) {
+  /* Adjust styles for phones */
+  .header {}
+
+  .banner {
+      background: url('images/pic_1.jpg') no-repeat center/cover;
   }
 
-  .footer {
+  .quote {}
 
-  }
-  /* Adjust font sizes for better readability on smaller screens */
-  /* You can fine-tune these values as needed */
+  .video {}
 
-  .header .menu a {
-    font-size: 10px;
-  }
+  .membership {}
 
-  #GetSchooled {
-    font-size: 36px;
-  }
-
-  #BP {
-    font-size: 14px;
-  }
-
-  .people h3 {
-    font-size: 16px;
-  }
-
-  .people p {
-    font-size: 14px;
-  }
-
-  .banner h2 {
-    font-size: 24px;
-  }
-
-  .quotebox blockquote {
-    font-size: 18px;
-  }
-
-  /* Add media queries for tablet and phone sizes */
-  @media only screen and (max-width: 1024px) {
-    .header {}
-
-
-    .banner {
-        background: url('images/pic_1.jpg') no-repeat center/cover;
-
-    }
-
-    .video {
-
-    }
-
-    .membership {
-
-    }
-
-    .footer {
-
-    }
-  }
-
-  @media only screen and (max-width: 768px) {
-    /* Adjust styles for phones */
-    .header {
-
-    }
-
-    .banner {
-        background: url('images/pic_1.jpg') no-repeat center/cover;
-    }
-
-    .quote {
-
-    }
-
-    .video {
-
-    }
-
-    .membership {
-
-    }
-
-    .footer {
-
-    }
-  }
+  .footer {}
+}
