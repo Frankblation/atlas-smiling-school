@@ -1,7 +1,10 @@
 :root {
   --hover-color: #C271FF;
+  }
+header {
+  margin: 0px;
+  padding: 0px;
 }
-
 .overhead {
   position:absolute;
   width: 100%;
@@ -17,7 +20,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  position: relative;
+  z-index: 1;
 }
 
 #button1 {
@@ -52,27 +55,26 @@ h2 {
 }
 
 .quote {
-  background: #C271FF;
-  fill: #C271FF;
-  width: 1440px;
-  height: 392px;
-  flex-shrink: 0;}
+  background-image: url('images/quote-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  }
 
-  .quote img {
-    border-radius: 80px;
+  .quote, img {
+    border-radius: 80%;
   }
 
   /* Style for carousel items */
-.carousel-item img {
-  width: 100%;
-  /* Add more styles as needed */
+.carousel-item, img {
+  width:30%;
 }
 
-.carousel-item .quotebox {
-  /* Add styles for the quote box */
+.carousel-item, .quotebox {
+
 }
 
-.carousel-item blockquote {
+.carousel-item, blockquote {
   /* Add styles for the quote */
 }
 
@@ -91,17 +93,16 @@ h2 {
 
 .carousel-control-prev img,
 .carousel-control-next img {
-  width: 30px; /* Adjust as needed */
-  height: 30px; /* Adjust as needed */
+  width: 80px;
+  height: 150px;
 }
-
 /* Customize the appearance of the carousel indicators (optional) */
-.carousel-indicators li {
+.carousel-indicators, li {
   background-color: #888; /* Change the color */
   border-color: #888; /* Change the color */
 }
 
-.carousel-indicators .active {
+.carousel-indicators, .active {
   background-color: #333; /* Change the color */
   border-color: #333; /* Change the color */
 }
