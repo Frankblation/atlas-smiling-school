@@ -69,7 +69,7 @@ h2 {
 .quote {
   background: #C271FF;
   fill: #C271FF;
-  height: 100%;
+  height: 289px;
 
   }
 
@@ -82,7 +82,7 @@ h2 {
       font-size: 4rem;
     }
   }
-#carouselControls .carousel-control-prev-icon,
+  #carouselControls .carousel-control-prev-icon,
   #carouselControlVideo .carousel-control-prev-icon {
     height: 50px;
     background-image: url(./images/arrow_black_left.png);
