@@ -1,5 +1,18 @@
 :root {
-  --hover-color: #C271FF;
+    --hover-color: #C271FF;
+    --color-primary: #c271ff;
+    --color-primary-light: #c988fa;
+    --color-secondary: #071629;
+    --color-black: #090909;
+    --color-white: #ffffff;
+    --color-grey: #a0a0a0;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+    --font-family: "Source Sans Pro", sans-serif;
+    --font-family-secondary: 'Coiny', cursive;
+  }
+  body {
+    font-family: var(--font-family);
   }
 header {
   margin: 0px;
@@ -20,7 +33,6 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  z-index: 1;
 }
 
 #button1 {
@@ -55,124 +67,44 @@ h2 {
 }
 
 .quote {
-  background-image: url('images/quote-bg.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background: #C271FF;
+  fill: #C271FF;
+  height: 100%;
+
   }
 
-  .quote, img {
-    border-radius: 80%;
+  .quote img {
+    border-radius: 30%;
   }
 
-  /* Style for carousel items */
-.carousel-item, img {
-  width:30%;
-}
-
-.carousel-item, .quotebox {
-
-}
-
-.carousel-item, blockquote {
-  /* Add styles for the quote */
-}
-
-.carousel-item .p1,
-.carousel-item .p2 {
-  /* Add styles for the person's name and role */
-}
-
-/* Style for carousel controls (arrow buttons) */
-.carousel-control-prev,
-.carousel-control-next {
-  width: auto;
-  height: auto;
-  padding: 0;
-}
-
-.carousel-control-prev img,
-.carousel-control-next img {
-  width: 80px;
-  height: 150px;
-}
-/* Customize the appearance of the carousel indicators (optional) */
-.carousel-indicators, li {
-  background-color: #888; /* Change the color */
-  border-color: #888; /* Change the color */
-}
-
-.carousel-indicators, .active {
-  background-color: #333; /* Change the color */
-  border-color: #333; /* Change the color */
-}
-
-
-.video {}
-
-.membership {}
-
-.footer {}
-
-/* Adjust font sizes for better readability on smaller screens */
-/* You can fine-tune these values as needed */
-
-.header .menu a {
-  font-size: 10px;
-}
-
-#GetSchooled {
-  font-size: 36px;
-}
-
-#BP {
-  font-size: 14px;
-}
-
-.people h3 {
-  font-size: 16px;
-}
-
-.people p {
-  font-size: 14px;
-}
-
-.banner h2 {
-  font-size: 24px;
-}
-
-.quotebox blockquote {
-  font-size: 18px;
-}
-
-/* Add media queries for tablet and phone sizes */
-@media only screen and (max-width: 1024px) {
-  .header {}
-
-  .banner {
-      background: url('images/pic_1.jpg') no-repeat center/cover;
+  @media screen and (max-width: 768px) {
+    .display-1 {
+      font-size: 4rem;
+    }
+  }
+#carouselControls .carousel-control-prev-icon,
+  #carouselControlVideo .carousel-control-prev-icon {
+    height: 50px;
+    background-image: url(./images/arrow_black_left.png);
   }
 
-  .video {}
-
-  .membership {}
-
-  .footer {}
-}
-
-@media only screen and (max-width: 768px) {
-  /* Adjust styles for phones */
-  .header {}
-
-  .banner {
-      background: url('images/pic_1.jpg') no-repeat center/cover;
+  .carousel-control-prev-icon {
+    height: 50px;
+    background-image: url(./images/arrow_white_left.png);
   }
 
-  .quote {}
+  .carousel-control-next-icon {
+    height: 50px;
+    background-image: url(./images/arrow_white_right.png);
+  }
 
-  .video {}
+ .navbar-nav .active {
+    border-bottom: 1px solid var(--color-white);
+    color: var(--color-primary);
+  }
 
-  .membership {}
-
-  .footer {}
-}
+  #carouselControls .carousel-control-next-icon,
+  #carouselControlVideo .carousel-control-next-icon {
+    height: 50px;
+    background-image: url(./images/arrow_black_right.png);
+  }
