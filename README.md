@@ -1,6 +1,7 @@
-# atlas-smiling-# Welcome to Your Website
+# atlas-smiling-school
+# Welcome to Your Website
 
-This repository contains a basic website template built with Bootstrap 5.1.0.
+This repository contains a website template built with Bootstrap 5.1.0.
 
 ## Features
 
@@ -14,4 +15,4 @@ This repository contains a basic website template built with Bootstrap 5.1.0.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/Frankblation/atlas-smiling-school.git
