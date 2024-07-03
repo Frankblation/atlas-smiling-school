@@ -1,3 +1,14 @@
+@font-face{
+    font-family: 'source sans pro';
+    src: url(source-sans-pro/SourceSansPro-Regular.otf)
+    format('oft');
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: source sans-serif
+}
 .navbar {
     height:100%;
 }
