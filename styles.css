@@ -2,12 +2,18 @@
     font-family: 'source sans pro';
     src: url(source-sans-pro/SourceSansPro-Regular.otf)
     format('oft');
+    font-weight: normal;
+    font-style: normal;
 }
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: source sans-serif
+    font-family: 'source sans pro'
+}
+body {
+    background: url('images/pic_1.jpg') no-repeat center center fixed;
+    background-size: cover;
 }
 .navbar {
     height:100%;
