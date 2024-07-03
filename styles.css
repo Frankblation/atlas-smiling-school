@@ -5,16 +5,49 @@
     font-weight: normal;
     font-style: normal;
 }
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'source sans pro'
-}
+
+    
+
 body {
     background: url('images/pic_1.jpg') no-repeat center center fixed;
-    background-size: cover;
+    width: 100%;
+    fill: #071629;
+
 }
 .navbar {
-    height:100%;
+    height:;
+}
+
+@media (max-width: 576px) {
+    .navbar-toggler {
+        order: -1; 
+        margin-right: 15px;
+    }
+
+    .navbar img {
+        margin: 0 5px; 
+    }
+}
+
+.navbar img {
+    margin: 20 10px;
+}
+
+
+.hero-fluid {
+    background: url('images/hero-background.jpg') no-repeat center center;
+    background-size: auto;
+    height: 30px; 
+}
+
+.hero-fluid .display-1 {
+    color: #ffffff;
+    font-family: source sans pro;
+    font-size:500%;
+}
+
+.hero-fluid .lead {
+    color: #f8f9fa;
+    font-family:  source sans pro;
+    font-size: 70%;
 }
