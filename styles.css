@@ -9,15 +9,10 @@
     
 
 body {
-    background: url('images/pic_1.jpg') no-repeat center center fixed;
-    width: 100%;
-    fill: #071629;
+    background: url('images/pic_1.jpg') no-repeat center fixed;
 
 }
-.navbar {
-    height:;
-}
-
+/*setting Nav bar to flip after md*/
 @media (max-width: 576px) {
     .navbar-toggler {
         order: -1; 
@@ -34,20 +29,61 @@ body {
 }
 
 
-.hero-fluid {
-    background: url('images/hero-background.jpg') no-repeat center center;
-    background-size: auto;
-    height: 30px; 
-}
+
+
 
 .hero-fluid .display-1 {
     color: #ffffff;
-    font-family: source sans pro;
-    font-size:500%;
+    font-family: "source sans pro";
+    
 }
 
 .hero-fluid .lead {
     color: #f8f9fa;
-    font-family:  source sans pro;
+    font-family:  "source sans pro";
     font-size: 70%;
 }
+/*setting correct colors*/
+.purple {
+    color:#C271FF;
+}
+ .btn-purple {
+    background-color: #C271FF !important;
+    color:#fff;
+
+ }
+ /*card*/
+ 
+ .card-body {
+    text-align: center; 
+    color: #fff;
+ }
+
+
+ .card-title {
+   color:#ffffff;
+   
+   text-align: center;
+   font-family: "Source Sans Pro";
+   font-size: 18px;
+   font-style: normal;
+
+ }
+
+ .card-subtitle {
+    color: #fff;
+    font-family: "Source Sans Pro";
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+
+}
+ 
+ .card-text {
+    color: #fff;
+    font-family: "Source Sans Pro";
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+
+ }
