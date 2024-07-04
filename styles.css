@@ -1,4 +1,14 @@
-@font-face{
+/*css reset*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+
+}@font-face{
     font-family: 'source sans pro';
     src: url(source-sans-pro/SourceSansPro-Regular.otf)
     format('oft');
@@ -6,10 +16,17 @@
     font-style: normal;
 }
 
+body {
+margin: -60px;;
+}
+
     
 
-body {
-    background: url('images/pic_1.jpg') no-repeat center fixed;
+.navero {
+    width: auto;
+    height: 1093px;
+    flex-shrink:0;
+
 
 }
 /*setting Nav bar to flip after md*/
@@ -27,8 +44,6 @@ body {
 .navbar img {
     margin: 20 10px;
 }
-
-
 
 
 
@@ -87,3 +102,17 @@ body {
     font-weight: 400;
 
  }
+
+ /*carousel
+ setting background color and size of containers*/
+
+.carousel {
+    background:#C271FF;
+    width: auto;
+    height: 392px;
+    flex-shrink: 0;
+}
+
+.profile5 {
+    width: 30vh;
+}
