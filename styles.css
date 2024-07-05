@@ -150,3 +150,58 @@ margin: -60px;;
     margin-top:0;
 
 }
+
+/*popullar*/
+
+.popular {
+    background-color: #fff;
+    height: 3484px;
+}
+
+.poptext {
+    color: #071629;
+    font-family: "source sans pro";
+
+}
+
+/*card-pop*/
+
+
+
+ .card-title-pop {
+   color:#071629;
+   text-align: center;
+   font-family: "Source Sans Pro";
+   font-size: 18px;
+   font-style: normal;
+
+ }
+
+ .card-title-pop {
+    color: #071629;
+    font-family: "Source Sans Pro";
+    font-size: 16px;
+    font-weight: 400;
+
+}
+ 
+ .card-text-pop {
+    color:rgba(7, 22, 41, 0.50);
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+ }
+
+ .phillip {
+
+    width: 4rem;
+
+ }
+ .philly {
+    color:#C271FF
+
+ }
+.arrowb {
+    width: 62.67px;
+    height: 29.045px;
+}
+
