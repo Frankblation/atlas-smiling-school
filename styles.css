@@ -106,13 +106,43 @@ margin: -60px;;
  /*carousel
  setting background color and size of containers*/
 
-.carousel {
+.caro {
     background:#C271FF;
-    width: auto;
-    height: 392px;
-    flex-shrink: 0;
+
+
+
+
 }
 
 .profile5 {
-    width: 30vh;
+    width: 10rem;
+    height: 10rem;
+    margin-top:12rem;
+    margin-right:20rem;
+}
+
+.outtersel {
+    height: 392px;
+}
+.carousel-item {
+    margin-left: 20%;
+    width:60%;
+}
+
+
+.review {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -8rem;
+}
+
+.review p {
+    margin;
+    font-family: "source sans pro";
+}
+
+.review .name,
+.review .weather {
+    margin-top:0;
 }
