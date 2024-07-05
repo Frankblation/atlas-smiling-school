@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Basic Layout</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="pricing.css"/>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-HoA6krQbvKcSGLi8dBuD7T2BKP2pMxyYyzOUu+ZfN1vJt4q6F8pcftHBL8Hdhtg9" crossorigin="anonymous"></script>
+</head>
+
+<body>
+   
+  <section class="navero bg-image container-fluid text-center shadow-1-strong text-white"
+              style="background-image: url('images/pricingbg.png')">
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-sm navbar-dark m-5">
+        <div class="container bg-body-transparent justify-content-between">
+            <a class="navbar-brand"></a>
+            <img class="p-3 img-fluid" src="images/smile_off.png" alt="smile" height="30" width="80">
+            <img  class="img-fluid" src="images/logo.png" alt="logo" width="150">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="#">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="#">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+   
+        <header class="hero hero-fluid text-center">
+            <div class="container text-center text-white mt-5">
+                <h1 class="schooled pt-5 fw-lighter">What is <img src="images/smile_off.png"\> <img src="images/logo.png"\></h1> 
+                <p class="lead text-uppercase pb-3 font-weight-bold">
+                    Go Pro!
+                </p>
+            </div>
+            <div class="container mt-4 text-center">
+                <div class="row">
+                    <div class="col">
+                    
+                    </div>
+                    <div class="col">
+                    <button type="button"  class="btn btn-purple btn-dark shadow text-uppercase font-weight-bold rounded-pill mb-5">BUY 3 MONTHS</button>
+              
+                    </div>
+                    <div class="col">
+                    <button type="button" class="btn btn-purple btn-dark shadow text-uppercase font-weight-bold rounded-pill mb-5">BUY 1 YEAR</button>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-4 text-center">
+                <div class="row">
+                    <div class="col">
+                        
+                    </div>
+                    <div class="num col">
+                        <p class="leadp text-uppercase">
+                           $3.60
+                        </p>
+                        <h6>1.20/month</h6>
+                    </div>
+                    <div class="num col">
+                        <p class="leadp text-uppercase pb-3">
+                            $12.99
+                        </p>
+                        <h6 class>1.08/month</h6>
+                    </div> 
+                </div>
+            </div><div class="container mt-4 text-center">
+                <div class="row">
+                    <div class="col border border border-start-0 border-end-0 border-top-0">
+                       <p> Unlimitted access to all tutorials</p>
+                    </div>
+                    <div class="col border border border-start-0 border-end-0 border-top-0">
+                    <svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.912 1.92C9.08801 0.639994 11.4453 0 13.984 0C16.5227 0 18.88 0.639994 21.056 1.92C23.168 3.15734 24.8427 4.83199 26.08 6.944C27.36 9.12001 28 11.4773 28 14.016C28 16.5547 27.36 18.912 26.08 21.088C24.8427 23.2 23.168 24.8747 21.056 26.112C18.88 27.392 16.5227 28.032 13.984 28.032C11.4453 28.032 9.08801 27.392 6.912 26.112C4.79999 24.8747 3.13601 23.2 1.92 21.088C0.639994 18.912 0 16.5547 0 14.016C0 11.4773 0.639994 9.12001 1.92 6.944C3.13601 4.83199 4.79999 3.15734 6.912 1.92ZM6.064 14.72L11.2699 19.8993C11.3134 19.9309 11.3647 19.9467 11.424 19.9467C11.5129 19.9467 11.584 19.9111 11.6373 19.84L21.904 8.96C21.9573 8.88889 21.984 8.81333 21.984 8.73333C21.984 8.65333 21.9484 8.58667 21.8773 8.53333L20.064 6.8C20.0107 6.74667 19.9396 6.72 19.8507 6.72C19.7618 6.72 19.6907 6.75556 19.6373 6.82667L11.5573 15.4133C11.4862 15.4667 11.4107 15.4933 11.3307 15.4933C11.2507 15.4933 11.184 15.4667 11.1307 15.4133L8.25067 12.5333C8.17955 12.48 8.104 12.4533 8.024 12.4533C7.944 12.4533 7.87733 12.48 7.824 12.5333L6.064 14.2667C6.01067 14.3378 5.984 14.4133 5.984 14.4933C5.984 14.5733 6.01067 14.6489 6.064 14.72Z" fill="#82D24F"/>
+                        </svg>
+                        
+                    </div>
+                    <div class="col border border border-start-0 border-end-0 border-top-0">
+                    <svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.912 1.92C9.08801 0.639994 11.4453 0 13.984 0C16.5227 0 18.88 0.639994 21.056 1.92C23.168 3.15734 24.8427 4.83199 26.08 6.944C27.36 9.12001 28 11.4773 28 14.016C28 16.5547 27.36 18.912 26.08 21.088C24.8427 23.2 23.168 24.8747 21.056 26.112C18.88 27.392 16.5227 28.032 13.984 28.032C11.4453 28.032 9.08801 27.392 6.912 26.112C4.79999 24.8747 3.13601 23.2 1.92 21.088C0.639994 18.912 0 16.5547 0 14.016C0 11.4773 0.639994 9.12001 1.92 6.944C3.13601 4.83199 4.79999 3.15734 6.912 1.92ZM6.064 14.72L11.2699 19.8993C11.3134 19.9309 11.3647 19.9467 11.424 19.9467C11.5129 19.9467 11.584 19.9111 11.6373 19.84L21.904 8.96C21.9573 8.88889 21.984 8.81333 21.984 8.73333C21.984 8.65333 21.9484 8.58667 21.8773 8.53333L20.064 6.8C20.0107 6.74667 19.9396 6.72 19.8507 6.72C19.7618 6.72 19.6907 6.75556 19.6373 6.82667L11.5573 15.4133C11.4862 15.4667 11.4107 15.4933 11.3307 15.4933C11.2507 15.4933 11.184 15.4667 11.1307 15.4133L8.25067 12.5333C8.17955 12.48 8.104 12.4533 8.024 12.4533C7.944 12.4533 7.87733 12.48 7.824 12.5333L6.064 14.2667C6.01067 14.3378 5.984 14.4133 5.984 14.4933C5.984 14.5733 6.01067 14.6489 6.064 14.72Z" fill="#82D24F"/>
+                        </svg>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-4 text-center">
+                <div class="row">
+                    <div class="col border border border-start-0 border-end-0 border-top-0">
+                       <p>Access SmileSchool private forum</p>
+                    </div>
+                    <div class="col border border border-start-0 border-end-0 border-top-0">
+                    <svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.912 1.92C9.08801 0.639994 11.4453 0 13.984 0C16.5227 0 18.88 0.639994 21.056 1.92C23.168 3.15734 24.8427 4.83199 26.08 6.944C27.36 9.12001 28 11.4773 28 14.016C28 16.5547 27.36 18.912 26.08 21.088C24.8427 23.2 23.168 24.8747 21.056 26.112C18.88 27.392 16.5227 28.032 13.984 28.032C11.4453 28.032 9.08801 27.392 6.912 26.112C4.79999 24.8747 3.13601 23.2 1.92 21.088C0.639994 18.912 0 16.5547 0 14.016C0 11.4773 0.639994 9.12001 1.92 6.944C3.13601 4.83199 4.79999 3.15734 6.912 1.92ZM6.064 14.72L11.2699 19.8993C11.3134 19.9309 11.3647 19.9467 11.424 19.9467C11.5129 19.9467 11.584 19.9111 11.6373 19.84L21.904 8.96C21.9573 8.88889 21.984 8.81333 21.984 8.73333C21.984 8.65333 21.9484 8.58667 21.8773 8.53333L20.064 6.8C20.0107 6.74667 19.9396 6.72 19.8507 6.72C19.7618 6.72 19.6907 6.75556 19.6373 6.82667L11.5573 15.4133C11.4862 15.4667 11.4107 15.4933 11.3307 15.4933C11.2507 15.4933 11.184 15.4667 11.1307 15.4133L8.25067 12.5333C8.17955 12.48 8.104 12.4533 8.024 12.4533C7.944 12.4533 7.87733 12.48 7.824 12.5333L6.064 14.2667C6.01067 14.3378 5.984 14.4133 5.984 14.4933C5.984 14.5733 6.01067 14.6489 6.064 14.72Z" fill="#82D24F"/>
+                        </svg>
+                        
+                    </div>
+                    <div class="col border border border-start-0 border-end-0 border-top-0">
+                    <svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.912 1.92C9.08801 0.639994 11.4453 0 13.984 0C16.5227 0 18.88 0.639994 21.056 1.92C23.168 3.15734 24.8427 4.83199 26.08 6.944C27.36 9.12001 28 11.4773 28 14.016C28 16.5547 27.36 18.912 26.08 21.088C24.8427 23.2 23.168 24.8747 21.056 26.112C18.88 27.392 16.5227 28.032 13.984 28.032C11.4453 28.032 9.08801 27.392 6.912 26.112C4.79999 24.8747 3.13601 23.2 1.92 21.088C0.639994 18.912 0 16.5547 0 14.016C0 11.4773 0.639994 9.12001 1.92 6.944C3.13601 4.83199 4.79999 3.15734 6.912 1.92ZM6.064 14.72L11.2699 19.8993C11.3134 19.9309 11.3647 19.9467 11.424 19.9467C11.5129 19.9467 11.584 19.9111 11.6373 19.84L21.904 8.96C21.9573 8.88889 21.984 8.81333 21.984 8.73333C21.984 8.65333 21.9484 8.58667 21.8773 8.53333L20.064 6.8C20.0107 6.74667 19.9396 6.72 19.8507 6.72C19.7618 6.72 19.6907 6.75556 19.6373 6.82667L11.5573 15.4133C11.4862 15.4667 11.4107 15.4933 11.3307 15.4933C11.2507 15.4933 11.184 15.4667 11.1307 15.4133L8.25067 12.5333C8.17955 12.48 8.104 12.4533 8.024 12.4533C7.944 12.4533 7.87733 12.48 7.824 12.5333L6.064 14.2667C6.01067 14.3378 5.984 14.4133 5.984 14.4933C5.984 14.5733 6.01067 14.6489 6.064 14.72Z" fill="#82D24F"/>
+                        </svg>
+                        
+                    </div>
+                </div>
+            </div><div class="container mt-4 text-center">
+                <div class="row">
+                    <div class="col border border border-start-0 border-end-0 border-top-0">
+                        <p>Access Smiles contests & Smiles Analysis</p>
+                    </div>
+                    <div class="col border border-start-0 border-end-0 border-top-0">
+                    <svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.912 1.92C9.08801 0.639994 11.4453 0 13.984 0C16.5227 0 18.88 0.639994 21.056 1.92C23.168 3.15734 24.8427 4.83199 26.08 6.944C27.36 9.12001 28 11.4773 28 14.016C28 16.5547 27.36 18.912 26.08 21.088C24.8427 23.2 23.168 24.8747 21.056 26.112C18.88 27.392 16.5227 28.032 13.984 28.032C11.4453 28.032 9.08801 27.392 6.912 26.112C4.79999 24.8747 3.13601 23.2 1.92 21.088C0.639994 18.912 0 16.5547 0 14.016C0 11.4773 0.639994 9.12001 1.92 6.944C3.13601 4.83199 4.79999 3.15734 6.912 1.92ZM6.064 14.72L11.2699 19.8993C11.3134 19.9309 11.3647 19.9467 11.424 19.9467C11.5129 19.9467 11.584 19.9111 11.6373 19.84L21.904 8.96C21.9573 8.88889 21.984 8.81333 21.984 8.73333C21.984 8.65333 21.9484 8.58667 21.8773 8.53333L20.064 6.8C20.0107 6.74667 19.9396 6.72 19.8507 6.72C19.7618 6.72 19.6907 6.75556 19.6373 6.82667L11.5573 15.4133C11.4862 15.4667 11.4107 15.4933 11.3307 15.4933C11.2507 15.4933 11.184 15.4667 11.1307 15.4133L8.25067 12.5333C8.17955 12.48 8.104 12.4533 8.024 12.4533C7.944 12.4533 7.87733 12.48 7.824 12.5333L6.064 14.2667C6.01067 14.3378 5.984 14.4133 5.984 14.4933C5.984 14.5733 6.01067 14.6489 6.064 14.72Z" fill="#82D24F"/>
+                        </svg>
+                        
+                    </div>
+                    <div class="col border border-start-0 border-end-0 border-top-0">
+                    <svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.912 1.92C9.08801 0.639994 11.4453 0 13.984 0C16.5227 0 18.88 0.639994 21.056 1.92C23.168 3.15734 24.8427 4.83199 26.08 6.944C27.36 9.12001 28 11.4773 28 14.016C28 16.5547 27.36 18.912 26.08 21.088C24.8427 23.2 23.168 24.8747 21.056 26.112C18.88 27.392 16.5227 28.032 13.984 28.032C11.4453 28.032 9.08801 27.392 6.912 26.112C4.79999 24.8747 3.13601 23.2 1.92 21.088C0.639994 18.912 0 16.5547 0 14.016C0 11.4773 0.639994 9.12001 1.92 6.944C3.13601 4.83199 4.79999 3.15734 6.912 1.92ZM6.064 14.72L11.2699 19.8993C11.3134 19.9309 11.3647 19.9467 11.424 19.9467C11.5129 19.9467 11.584 19.9111 11.6373 19.84L21.904 8.96C21.9573 8.88889 21.984 8.81333 21.984 8.73333C21.984 8.65333 21.9484 8.58667 21.8773 8.53333L20.064 6.8C20.0107 6.74667 19.9396 6.72 19.8507 6.72C19.7618 6.72 19.6907 6.75556 19.6373 6.82667L11.5573 15.4133C11.4862 15.4667 11.4107 15.4933 11.3307 15.4933C11.2507 15.4933 11.184 15.4667 11.1307 15.4133L8.25067 12.5333C8.17955 12.48 8.104 12.4533 8.024 12.4533C7.944 12.4533 7.87733 12.48 7.824 12.5333L6.064 14.2667C6.01067 14.3378 5.984 14.4133 5.984 14.4933C5.984 14.5733 6.01067 14.6489 6.064 14.72Z" fill="#82D24F"/>
+                        </svg>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-4 text-center">
+                <div class="row">
+                    <div class="col border border-start-0 border-end-0 border-top-0 ">
+                        <p>Get a free  toothbrush</p>
+                    </div>
+                    <div class="col border border-start-0 border-end-0 border-top-0 ">
+                    <svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.912 1.92C9.08801 0.639994 11.4453 0 13.984 0C16.5227 0 18.88 0.639994 21.056 1.92C23.168 3.15734 24.8427 4.83199 26.08 6.944C27.36 9.12001 28 11.4773 28 14.016C28 16.5547 27.36 18.912 26.08 21.088C24.8427 23.2 23.168 24.8747 21.056 26.112C18.88 27.392 16.5227 28.032 13.984 28.032C11.4453 28.032 9.08801 27.392 6.912 26.112C4.79999 24.8747 3.13601 23.2 1.92 21.088C0.639994 18.912 0 16.5547 0 14.016C0 11.4773 0.639994 9.12001 1.92 6.944C3.13601 4.83199 4.79999 3.15734 6.912 1.92ZM6.064 14.72L11.2699 19.8993C11.3134 19.9309 11.3647 19.9467 11.424 19.9467C11.5129 19.9467 11.584 19.9111 11.6373 19.84L21.904 8.96C21.9573 8.88889 21.984 8.81333 21.984 8.73333C21.984 8.65333 21.9484 8.58667 21.8773 8.53333L20.064 6.8C20.0107 6.74667 19.9396 6.72 19.8507 6.72C19.7618 6.72 19.6907 6.75556 19.6373 6.82667L11.5573 15.4133C11.4862 15.4667 11.4107 15.4933 11.3307 15.4933C11.2507 15.4933 11.184 15.4667 11.1307 15.4133L8.25067 12.5333C8.17955 12.48 8.104 12.4533 8.024 12.4533C7.944 12.4533 7.87733 12.48 7.824 12.5333L6.064 14.2667C6.01067 14.3378 5.984 14.4133 5.984 14.4933C5.984 14.5733 6.01067 14.6489 6.064 14.72Z" fill="#82D24F"/>
+                        </svg>
+                        
+                    </div>
+                    <div class="col border border-start-0 border-end-0 border-top-0 ">
+                    <svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.912 1.92C9.08801 0.639994 11.4453 0 13.984 0C16.5227 0 18.88 0.639994 21.056 1.92C23.168 3.15734 24.8427 4.83199 26.08 6.944C27.36 9.12001 28 11.4773 28 14.016C28 16.5547 27.36 18.912 26.08 21.088C24.8427 23.2 23.168 24.8747 21.056 26.112C18.88 27.392 16.5227 28.032 13.984 28.032C11.4453 28.032 9.08801 27.392 6.912 26.112C4.79999 24.8747 3.13601 23.2 1.92 21.088C0.639994 18.912 0 16.5547 0 14.016C0 11.4773 0.639994 9.12001 1.92 6.944C3.13601 4.83199 4.79999 3.15734 6.912 1.92ZM6.064 14.72L11.2699 19.8993C11.3134 19.9309 11.3647 19.9467 11.424 19.9467C11.5129 19.9467 11.584 19.9111 11.6373 19.84L21.904 8.96C21.9573 8.88889 21.984 8.81333 21.984 8.73333C21.984 8.65333 21.9484 8.58667 21.8773 8.53333L20.064 6.8C20.0107 6.74667 19.9396 6.72 19.8507 6.72C19.7618 6.72 19.6907 6.75556 19.6373 6.82667L11.5573 15.4133C11.4862 15.4667 11.4107 15.4933 11.3307 15.4933C11.2507 15.4933 11.184 15.4667 11.1307 15.4133L8.25067 12.5333C8.17955 12.48 8.104 12.4533 8.024 12.4533C7.944 12.4533 7.87733 12.48 7.824 12.5333L6.064 14.2667C6.01067 14.3378 5.984 14.4133 5.984 14.4933C5.984 14.5733 6.01067 14.6489 6.064 14.72Z" fill="#82D24F"/>
+                        </svg>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-4 text-center">
+                <div class="row">
+                    <div class="col border border-start-0 border-end-0 border-top-0">
+                        <img src="images/signal.png">
+                       <p> Exclusive discount on all Signal products</p>
+                    </div>
+                    <div class="col border border-start-0 border-end-0 border-top-0">
+                    
+                    </div>
+                    <div class="col border border-start-0 border-end-0 border-top-0">
+                    <svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.912 1.92C9.08801 0.639994 11.4453 0 13.984 0C16.5227 0 18.88 0.639994 21.056 1.92C23.168 3.15734 24.8427 4.83199 26.08 6.944C27.36 9.12001 28 11.4773 28 14.016C28 16.5547 27.36 18.912 26.08 21.088C24.8427 23.2 23.168 24.8747 21.056 26.112C18.88 27.392 16.5227 28.032 13.984 28.032C11.4453 28.032 9.08801 27.392 6.912 26.112C4.79999 24.8747 3.13601 23.2 1.92 21.088C0.639994 18.912 0 16.5547 0 14.016C0 11.4773 0.639994 9.12001 1.92 6.944C3.13601 4.83199 4.79999 3.15734 6.912 1.92ZM6.064 14.72L11.2699 19.8993C11.3134 19.9309 11.3647 19.9467 11.424 19.9467C11.5129 19.9467 11.584 19.9111 11.6373 19.84L21.904 8.96C21.9573 8.88889 21.984 8.81333 21.984 8.73333C21.984 8.65333 21.9484 8.58667 21.8773 8.53333L20.064 6.8C20.0107 6.74667 19.9396 6.72 19.8507 6.72C19.7618 6.72 19.6907 6.75556 19.6373 6.82667L11.5573 15.4133C11.4862 15.4667 11.4107 15.4933 11.3307 15.4933C11.2507 15.4933 11.184 15.4667 11.1307 15.4133L8.25067 12.5333C8.17955 12.48 8.104 12.4533 8.024 12.4533C7.944 12.4533 7.87733 12.48 7.824 12.5333L6.064 14.2667C6.01067 14.3378 5.984 14.4133 5.984 14.4933C5.984 14.5733 6.01067 14.6489 6.064 14.72Z" fill="#82D24F"/>
+                        </svg>                        
+                    </div>
+                </div>
+            </div>
+          
+        </header>
+</section>
+<section class="caro">
+    
+
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="outtersel carousel-item active">
+            <div class="d-flex justify-content-around">
+            <img class="profile5 d-flex align-self-sm-start ms-5 img-fluid rounded-circle" src="images/profile_5.jpg" class="d-block w-100" alt="profile5">
+            <div class="review row col-lg col-md-8 align-self-sm-end col-sm-carousel-text container-fluid d-flex ps-3"><p>« Those tutorials are concise and go straight to the point. I can’t think of a better place to learn smiling. And it’s so fun!</p>
+                <h5 class="name row ps-3">Persons Name</h4>
+                <h6 class="weather row ps-3 ">weather presenter</h6>
+            </div>
+            </div>
+          </div>
+          <d iv class="outtersel carousel-item">
+            <div class="d-flex justify-content-around">
+            <img class="profile5 d-flex align-self-sm-start ms-5 img-fluid rounded-circle" src="images/profile_5.jpg" class="d-block w-100" alt="profile5">
+            <div class="review row col-lg col-md-8 align-self-sm-end col-sm-carousel-text container-fluid d-flex ps-3"><p>« Those tutorials are concise and go straight to the point. I can’t think of a better place to learn smiling. And it’s so fun!</p>
+                <h5 class="name row ps-3"> Persons Name</h4>
+                <h6 class="weather row ps-3 ">weather presenter</h6>
+                </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+
+</html>
+
