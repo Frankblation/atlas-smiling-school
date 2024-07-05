@@ -20,7 +20,17 @@ body {
 margin: -60px;;
 }
 
+
     
+.display-1 {
+    font-family: "source sans pro";
+    font-size: 8.99rem;
+}
+
+.sgl {
+    font-family: "source sans pro";
+    font-size: 1.35rem!important;
+}
 
 .navero {
     width: auto;
@@ -58,6 +68,9 @@ margin: -60px;;
     font-family:  "source sans pro";
     font-size: 70%;
 }
+
+
+
 /*setting correct colors*/
 .purple {
     color:#C271FF;
