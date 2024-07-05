@@ -21,10 +21,10 @@ margin: -60px;;
 }
 
 
-    
-.display-1 {
+.schooled {
     font-family: "source sans pro";
-    font-size: 8.99rem;
+    font-size: 6rem;
+    
 }
 
 .sgl {
@@ -219,7 +219,7 @@ margin: -60px;;
 
 .freemem {
     background-color: #071629;
-    height: 502px;
+
     font-family: "source sans pro";
     
 }
@@ -245,8 +245,17 @@ margin: -60px;;
 /*****Footer****/
 
  
- footer {
+.footer {
 height: 249px;
 background-color: #071629;
 
 }
+
+.copyright {
+    margin-top:100%;
+    color: #FFF;
+    text-align: center;
+    font-family: "Source Sans Pro";
+    opacity: 0.3517;
+}
+
