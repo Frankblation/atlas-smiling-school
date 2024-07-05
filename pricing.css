@@ -76,8 +76,12 @@ margin: -60px;;
     color:#C271FF;
 }
  .btn-purple {
-    font-family: 'source sans pro';
+    font-family: "source sans pro";
     background-color: #C271FF !important;
+    width: 162px;
+    height: 44px;
+    
+    flex-shrink: 3;
     color:#fff;
 
  }
