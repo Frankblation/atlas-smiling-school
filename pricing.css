@@ -1,0 +1,261 @@
+/*css reset*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+
+}@font-face{
+    font-family: 'source sans pro';
+    src: url(source-sans-pro/SourceSansPro-Regular.otf)
+    format('oft');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+margin: -60px;;
+}
+
+
+.schooled {
+    font-family: "source sans pro";
+    font-size: 5rem;
+    
+}
+
+.sgl {
+    font-family: "source sans pro";
+    font-size: 1.35rem!important;
+}
+
+.navero {
+    width: auto;
+    height: 1093px;
+    flex-shrink:0;
+
+
+}
+/*setting Nav bar to flip after md*/
+@media (max-width: 576px) {
+    .navbar-toggler {
+        order: -1; 
+        margin-right: 15px;
+    }
+
+    .navbar img {
+        margin: 0 5px; 
+    }
+}
+
+.navbar img {
+    margin: 20 10px;
+}
+
+
+
+.hero-fluid .schooled {
+    color: #ffffff;
+    font-family: "source sans pro";
+    
+}
+
+.hero-fluid .lead {
+    color: #f8f9fa;
+    font-family:  "source sans pro";
+    font-size: 6rem;
+}
+
+
+
+/*setting correct colors*/
+.purple {
+    color:#C271FF;
+}
+ .btn-purple {
+    font-family: 'source sans pro';
+    background-color: #C271FF !important;
+    color:#fff;
+
+ }
+ /*card*/
+ 
+ .card-body {
+    text-align: center; 
+    color: #fff;
+ }
+
+
+ .card-title {
+   color:#ffffff;
+   
+   text-align: center;
+   font-family: "Source Sans Pro";
+   font-size: 18px;
+   font-style: normal;
+
+ }
+
+ .card-subtitle {
+    color: #fff;
+    font-family: "Source Sans Pro";
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+
+}
+ 
+ .card-text {
+    color: #fff;
+    font-family: "Source Sans Pro";
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+
+ }
+
+ /*carousel
+ setting background color and size of containers*/
+
+.caro {
+    background:#C271FF;
+
+
+
+
+}
+
+.profile5 {
+    width: 9.5rem;
+    height: 9.5rem;
+    margin-top:8.5rem;
+    margin-right:20rem;
+}
+
+.outtersel {
+    height: 392px;
+}
+.carousel-item {
+    margin-left: 20%;
+    width:60%;
+}
+
+
+.review {
+
+    justify-content: center;
+    margin-left: -20rem;
+    color: #fff; 
+    font-family: "source sans pro";
+}
+
+.review p {
+    margin: 0;
+    line-height: 2;
+    
+   
+}   
+
+.review .name,
+.review .weather {
+    margin-top:0;
+
+}
+
+/*popullar*/
+.carpop {
+    background-color: #ffffff;
+    height: 450px;
+} 
+.poptext {
+    color: #071629;
+    font-family: "source sans pro";
+
+}
+
+/*card-pop*/
+
+
+ .card-title-pop {
+   color:#071629;
+   text-align: left;
+   font-family: "Source Sans Pro";
+   font-size: 18px;
+   font-style: normal;
+
+ }
+
+ .card-title-pop {
+    color: #071629;
+    font-family: "Source Sans Pro";
+    font-size: 16px;
+    font-weight: 400;
+
+}
+ 
+ .card-text-pop {
+    color:rgba(7, 22, 41, 0.50);
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+ }
+
+ .phillip {
+
+    width: 4rem;
+
+ }
+ .philly {
+    color:#C271FF
+
+ }
+.arrowb {
+    height: 4rem;
+}
+
+/*****Free MEM****/
+
+.freemem {
+    background-color: #071629;
+
+    font-family: "source sans pro";
+    
+}
+
+.fmbutton {
+    font-family: "source sans pro";
+    font-size: 10px;
+}
+
+.card-title-fm,
+.card-text-fm {
+    font-family: "source sans pro";
+    color:#fff;
+
+}
+/*****Last Video****/
+
+.lastvid {
+
+}
+
+
+/*****Footer****/
+
+ 
+.footer {
+height: 249px;
+background-color: #071629;
+
+}
+
+.copyright {
+    margin-top:100%;
+    color: #FFF;
+    text-align: center;
+    font-family: "Source Sans Pro";
+    opacity: 0.3517;
+}
+
