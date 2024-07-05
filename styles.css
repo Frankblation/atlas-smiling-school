@@ -152,12 +152,10 @@ margin: -60px;;
 }
 
 /*popullar*/
-
-.popular {
-    background-color: #fff;
-    height: 3484px;
-}
-
+.carpop {
+    background-color: #ffffff;
+    height: 450px;
+} 
 .poptext {
     color: #071629;
     font-family: "source sans pro";
@@ -167,10 +165,9 @@ margin: -60px;;
 /*card-pop*/
 
 
-
  .card-title-pop {
    color:#071629;
-   text-align: center;
+   text-align: left;
    font-family: "Source Sans Pro";
    font-size: 18px;
    font-style: normal;
@@ -201,7 +198,6 @@ margin: -60px;;
 
  }
 .arrowb {
-    width: 62.67px;
-    height: 29.045px;
+    height: 4rem;
 }
 
