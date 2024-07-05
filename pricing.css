@@ -259,3 +259,20 @@ background-color: #071629;
     opacity: 0.3517;
 }
 
+/*******pricing*******/
+
+.num h6 {
+    font-family: "source sans pro";
+    font-size: 12px;
+    font-weight: 200;
+    opacity: 0.503;
+
+}
+
+.num p {
+    font-family: "source sans pro";
+    font-size: 44px;
+
+
+
+}
