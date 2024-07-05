@@ -115,9 +115,9 @@ margin: -60px;;
 }
 
 .profile5 {
-    width: 10rem;
-    height: 10rem;
-    margin-top:12rem;
+    width: 9.5rem;
+    height: 9.5rem;
+    margin-top:8.5rem;
     margin-right:20rem;
 }
 
@@ -134,15 +134,18 @@ margin: -60px;;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: -8rem;
+    margin-left: -20rem;
+
 }
 
 .review p {
-    margin;
+    margin: 0;
+    line-height: 2;
     font-family: "source sans pro";
-}
+}   
 
 .review .name,
 .review .weather {
     margin-top:0;
+    line-height: ;
 }
