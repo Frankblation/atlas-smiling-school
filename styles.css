@@ -63,6 +63,7 @@ margin: -60px;;
     color:#C271FF;
 }
  .btn-purple {
+    font-family: 'source sans pro';
     background-color: #C271FF !important;
     color:#fff;
 
@@ -201,3 +202,38 @@ margin: -60px;;
     height: 4rem;
 }
 
+/*****Free MEM****/
+
+.freemem {
+    background-color: #071629;
+    height: 502px;
+    font-family: "source sans pro";
+    
+}
+
+.fmbutton {
+    font-family: "source sans pro";
+    font-size: 10px;
+}
+
+.card-title-fm,
+.card-text-fm {
+    font-family: "source sans pro";
+    color:#fff;
+
+}
+/*****Last Video****/
+
+.lastvid {
+
+}
+
+
+/*****Footer****/
+
+ 
+ footer {
+height: 249px;
+background-color: #071629;
+
+}
