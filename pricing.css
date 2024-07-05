@@ -265,17 +265,18 @@ background-color: #071629;
 
 /*******pricing*******/
 
-.num h6 {
+    h6 {
     font-family: "source sans pro";
     font-size: 12px;
-    font-weight: 200;
+    margin-top: -2rem;
     opacity: 0.503;
 
 }
-
-.num p {
+    .leadp {
     font-family: "source sans pro";
-    font-size: 44px;
+    font-size:52px;
+    margin-top: -4rem;
+    
 
 
 
