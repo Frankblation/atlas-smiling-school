@@ -16,9 +16,6 @@
     font-style: normal;
 }
 
-body {
-margin: -60px;;
-}
 
 
 .schooled {
@@ -34,8 +31,9 @@ margin: -60px;;
 
 .navero {
     width: auto;
-    height: 1093px;
-    flex-shrink:0;
+    height: auto;
+    background-repeat: no-repeat;
+    background-color: #071629;
 
 
 }
@@ -281,5 +279,10 @@ background-color: #071629;
 }
 
   .border-bottom {
-    border-opacity: 0.2003;
+    border: 0.2003;
  }
+
+.faq {
+    width:auto;
+    height:auto;
+}
