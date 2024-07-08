@@ -1,7 +1,7 @@
 # atlas-smiling-school
 # Welcome to Your Website
 
-This repository contains a website template built with Bootstrap 5.1.0.
+This repository contains a website template built with Bootstrap 5.3.3.
 
 ## Features
 
