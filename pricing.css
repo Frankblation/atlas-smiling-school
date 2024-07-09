@@ -240,7 +240,8 @@
 /*****Last Video****/
 
 .lastvid {
-
+    height: auto;
+    width: auto;
 }
 
 
